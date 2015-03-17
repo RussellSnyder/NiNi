@@ -893,6 +893,11 @@ footer {
 	color: black;
 	font-size: 12px;
 	}
+	
+a[href^=tel] {
+	color: black;
+	font-size: 12px;
+	}	
 
 #credits {
 	float:right;	

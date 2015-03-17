@@ -196,7 +196,7 @@ header {
 .PhotoGal .box .caption {  
     position: absolute;  
     color: black;  
-    z-index: 100;  
+
     -webkit-transition: all 300ms ease-out;  
     -moz-transition: all 300ms ease-out;  
     -o-transition: all 300ms ease-out;  
@@ -217,6 +217,14 @@ header {
 
 @keyframes fading {
     0%   {opacity: 0;}
+	15% {opacity:0.99;}
+    33%  {opacity:0.99;}
+    50% {opacity:0;}
+    100% {opacity: 0;}
+}
+
+@-webkit-keyframes fading {
+    0%   {opacity: 0;translateZ(0);}
 	15% {opacity:0.99;}
     33%  {opacity:0.99;}
     50% {opacity:0;}

@@ -4,8 +4,6 @@
 /****************************/
 /****************************/
 
-@media (min-width: 0px) and (max-width: 600px) {
-
 
 /* General */
 
@@ -118,7 +116,7 @@ header {
 /* photo Gal */
 
 .PhotoGal {  
-	display: hidden;
+	display: none;
 
 	text-align: center;
 	
@@ -922,23 +920,4 @@ a[href^=tel] {
 * html .group             { zoom: 1; } /* IE6 */
 *:first-child+html .group { zoom: 1; } /* IE7 */
 
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-}
 

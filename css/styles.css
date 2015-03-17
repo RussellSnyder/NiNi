@@ -889,6 +889,11 @@ footer {
 	
 }
 
+#tele p {
+	color: black;
+	font-size: 12px;
+	}
+
 #credits {
 	float:right;	
 	display: inline;

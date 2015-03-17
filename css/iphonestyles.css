@@ -764,7 +764,7 @@ form {
 
 }
 .healthPsych .mainbody {
-	display: inline-block;
+	display: block;
 	
 	width: 100%;
 	
@@ -775,6 +775,8 @@ form {
 .healthPsych .mainbody h2, {
 	font-size: 1.3em;
 	margin-bottom: 0px;
+	
+	display: block;
 }
 
 .healthPsych .mainbody em {
@@ -783,31 +785,47 @@ form {
 .healthPsych .mainbody p{
 	margin-top: -3px;
 	text-align: justify;
-	font-size: 0.8em;
+	font-size: 0.75em;
+	line-height: 1.4em;
+	
 	font-weight: 300;
+	
+	display: block;
+	
+	margin-bottom: -10px;
 }
 .healthPsych .mainbody .article{
+	width: 100%
 
 }
 
 .healthPsych .mainbody .article .text{
 	font-weight: 100;
-	width: 620px;
+	width: 100%;
 	
-	display: inline-block;
+	display: block;
+	
+	margin-bottom: 30px;
 }
 
 .healthPsych .mainbody .article .greentext{
 	text-decoration: none;
 	text-stroke: none;
-	width: 320px;
+	width: 70%;
 	
+	margin-right: -20%;
+	
+	margin-left: 10%;
+	
+	
+	margin-bottom: 0px;
+
 	color: #4EC1A1;
 	
-	float:right;
-	clear: both;
+	display: block;
+	
+	
 		
-	margin: 8px 210px 15px 0px;
 }
 
 .healthPsych .mainbody .article .greentext h4{
@@ -816,18 +834,33 @@ form {
 }
 
 #green1{
-	margin-top: -10px;
 }
 #green2{
-	margin-bottom: -34px;
+	
+	width: 60%;
+	margin-top: 50px;
+	margin-left: -10px;
+	padding-left: 10%;
+	
+	margin-bottom: 0px;
 }
 #green3{
-	margin-top: -10px;
-	margin-bottom: 30px;
-}
+	
+	width: 80%;
+	margin-top: -20px;
+	margin-right: 10%;
+	
+	margin-bottom: 0px;
+	}
 #green4{
-	margin-top: 8px;
-	margin-bottom: -30px;
+	width: 80%;
+	margin-top: -20px;
+	margin-right: 10%;
+	
+	padding-left: 100%;
+	
+	margin-bottom: 0px;
+	
 	
 }
 

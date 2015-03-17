@@ -896,8 +896,10 @@ nav li:hover li {
 	float: none;
 		display: block;
 		
-	margin-left: 25%;	
+	margin-left: 20%;	
 	padding-top: 120px;
+	
+	padding-bottom: 20px;
 	
 }
 
@@ -928,6 +930,8 @@ nav li:hover li {
 
 .contact #contactBottom{
 	position: relative;
+	width: 100%;
+	margin-left: 0%;
 	
 }
 
@@ -972,7 +976,10 @@ nav li:hover li {
 }
 
 #ContactInput {
-	width: 325px;
+	width: 70%;
+	
+	margin-left: 5%;
+	
     padding:0px;
   
 	display: block;

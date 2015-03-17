@@ -516,9 +516,10 @@ nav li:hover li {
 
 .healthPsych {
 	width: 100%;
-	margin-left: -15%;
 	
-	margin-top: -20px;
+	margin-left: 0%;
+	
+	margin-top: 0%;
 	
 	
 }
@@ -528,6 +529,7 @@ nav li:hover li {
 	
 	text-align: left;
 	
+	margin-left: 0%; 
 
 	font-weight: 300;
 }
@@ -540,6 +542,7 @@ nav li:hover li {
 
 }
 .healthPsych .header p{
+	width: 100%;
 	font-size: 0.65em;
 	line-height: 1.3em;
 }
@@ -547,19 +550,19 @@ nav li:hover li {
 .healthPsych .header .left{
 	display: inline-block;
 
-	width: 100%;
+	width: 90%;
 	text-align: justify;
 	line-height: 1.6em;
 
 }
 .healthPsych .header .right{
-	width: 80%;
+	width: 90%;
 
 	display: inline;
 
 	font-weight: 700;
 	
-	margin-left: 10%;
+	margin-left: 0%;
 	margin-top: 2%;
 
 		
@@ -580,6 +583,8 @@ nav li:hover li {
 	
 	margin-bottom: -40px;
 	
+margin-left: 0%;
+	
 }
 
 .healthPsych .mainbody h2, {
@@ -593,6 +598,9 @@ nav li:hover li {
 	font-size: 1em;
 }
 .healthPsych .mainbody p{
+	
+	width: 90%;
+	margin-left: 0%;
 	margin-top: -3px;
 	text-align: justify;
 	font-size: 0.75em;
@@ -605,6 +613,7 @@ nav li:hover li {
 	margin-bottom: -10px;
 }
 .healthPsych .mainbody .article{
+	margin-left: 0%;
 	width: 100%
 
 }
@@ -621,7 +630,7 @@ nav li:hover li {
 .healthPsych .mainbody .article .greentext{
 	text-decoration: none;
 	text-stroke: none;
-	width: 70%;
+	width: 100%;
 	
 	margin-right: -20%;
 	
@@ -685,20 +694,24 @@ nav li:hover li {
 /* photo Gal */
 
 .benefitGal {  
-  text-align: center;
-	
+  text-align: left;
+
+	margin: 0%;
+		
   width: 100%;
     
-  display: inline-block;
+  display: block;
   
+  margin-left: 0%;
 
-  overflow: visible;
+  overflow: hidden;
   
   
   
 }  
 
 .benefitGal h2{  
+	width: 100%;
 	text-align: left;
 }
 
@@ -706,10 +719,10 @@ nav li:hover li {
     cursor: pointer;  
     height: 100px;      
     float: left;  
-    margin: 3px;  
+    margin: 1%;  
     position: relative;  
     overflow: hidden;  
-    width: 45%;  
+    width: 43%;  
 }  
   
 .benefitGal .box img {  

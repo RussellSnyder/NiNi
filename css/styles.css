@@ -1,0 +1,924 @@
+	/* ===============================
+   Author: {Russell Snyder}
+   Date:   {March 5, 2015}
+   
+   Notes:
+   Designed for Terzakis Consulting
+   
+   Colour Palette:
+   ---------------
+   Orange:				
+   Light Orange:	#FFBD73	
+   Yellow:			#FFE873	
+   Green:			#4EC1A1	
+   =============================== */
+
+/* Typography */
+
+
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+body {
+	padding: 40px 11px;
+
+	font-family: 'Titillium Web', sans-serif;	
+	font-weight: 300;
+
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+		
+	color: black;
+	
+	font-size:65.5%;
+
+	width: 1080px;;
+	margin-left: auto;
+	margin-right: auto;
+	
+	overflow-x: scroll;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom: 10px;
+}
+
+.container {
+
+	margin: 0 auto;
+}
+
+
+/* H1 {font-size:2em}  /* displayed at 24px */
+/* H2 {font-size:1.5em}  /* displayed at 18px */
+/* H3 {font-size:1.25em}  /* displayed at 15px */
+/* H4 {font-size:1em}  /* displayed at 12px */
+
+
+h1, h2{
+}
+
+h1 {
+	font-size: 1.7em;
+	font-weight: 200;
+	
+	line-height: 1.3em;
+	
+	letter-spacing: 1px;
+}
+
+h1 em {
+}
+
+h2 {
+	font-size: 1.1em;
+	font-weight: 200;
+	
+
+	padding-bottom: 13px;
+
+}
+
+h3{
+}
+
+p {
+	font-size: .78em;
+
+	font-weight: 100;
+	
+	line-height: 1.5em;
+		
+	padding-bottom: 10px;
+}
+
+a {
+	color: #FFBD73;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+hr {
+}
+
+img {
+   } 
+    
+/* Header Logo */
+
+header {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/* photo Gal */
+
+.PhotoGal {  
+	text-align: center;
+	
+    width: 100%;
+    
+  margin: 25px 10px 0px 0px;  
+
+  width: auto;  
+  display: inline-block;
+  
+
+  overflow: hidden;
+  
+}  
+
+.PhotoGal .box {  
+    cursor: pointer;  
+    height: 295px;      
+    float: left;  
+    margin: 15px;  
+    position: relative;  
+    overflow: hidden;  
+    width: 295px;  
+    -webkit-box-shadow: 2px 2px 2px 2px #ccc;  
+    -moz-box-shadow: 2px 2px 2px 2px #ccc;  
+    box-shadow: 1px 1px 5px 1px black
+}  
+  
+.PhotoGal .box img {  
+    position: absolute;  
+    left: 0;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+}  
+
+.PhotoGal .box .caption {  
+    position: absolute;  
+    color: black;  
+    z-index: 100;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+    left: 0;  
+}  
+
+/* Hover */
+
+.PhotoGal .box .fade-caption, #PhotoGal .box .scale-caption {  
+    opacity: 0;  
+    width: 270px;  
+    height: 285px;  
+    padding: 15px;  
+}  
+
+
+.PhotoGal .box:hover .fade-caption {  
+    opacity: 1;  
+}  
+
+
+/* color the boxes */
+.caption {
+	text-align: left;
+}
+
+#caption-1 {
+	background-color: #FFBD73;	
+}
+
+#caption-2 {
+	background-color: #FFE873;	
+}
+
+#caption-3 {
+	background-color: #4EC1A1;
+}
+
+nav {
+	text-align: center;
+	
+    margin-left: auto;
+    margin-right: auto;
+ 
+    padding-left: 45px;
+
+    padding-top: 20px;
+	margin-bottom: 20px;
+
+	width:1080px;
+}
+
+nav ul {
+	list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin: 0 auto;
+
+	width:1080px;;
+
+    display: inline-block;
+
+}
+nav li {
+	float: left;
+	
+	padding-top: 6px;
+	border-top: 1px solid black;	
+
+	padding-left: 4%;
+	padding-right: 4%;
+
+    width: 140px;
+
+	margin-right: 1%;
+	margin-left: 1%;
+
+	font-size: .8em;
+
+}
+
+nav a {
+	
+	color: rgba(34, 34, 34, 0.94);	
+	width: 100%;
+}
+
+nav li:hover {
+	
+	border-width: 4px;
+	
+	margin-top: 0px;
+	
+	line-height: 17px;
+	
+	font-size: .8em;
+}
+
+nav li:hover li {
+	padding-top: -2px;	
+}
+ nav .current {
+	border-width: 4px;
+	 }
+
+/* nav colors */
+
+.orange:hover {
+	color: orange;
+	border-color: orange;
+}
+
+.orangeCurrent {
+	color: orange;
+	border-color: orange;
+	border-width: 4px;
+	
+	margin-top: 0px;
+	line-height: 17px;
+	font-size: .8em;
+}
+
+.yellow:hover {
+	color: #f5dd65;
+	border-color: #f5dd65;
+}
+
+.green {
+	color: #4EC1A1;
+	border-color: #4EC1A1;
+}
+.greenCurrent {
+	color: #4EC1A1;
+	border-color: #4EC1A1;
+	border-width: 4px;
+	
+	margin-top: 0px;
+	line-height: 17px;
+	font-size: .8em;
+}
+.blackCurrent {
+	color: black;
+	border-color: black;
+	border-width: 4px;
+	
+	margin-top: 0px;
+	line-height: 17px;
+	font-size: .8em;
+}
+
+
+
+/*************/
+/* Contact */
+/*************/
+
+
+.contact {
+	margin-left: 330px;
+	margin-top: 40px;
+	width: 700px;
+	
+
+}
+
+#contactTop {
+	display: block;
+
+	}
+	
+
+
+.contact #ContactInfo {
+	color: black;
+	
+	font-size: .8em;
+	line-height: 2px;	
+	
+	float: left;
+	
+}
+
+#ContactInfo h2 {
+
+		font-weight: 300;
+}
+#ContactInfo a {
+	text-decoration: underline;
+	color: black;
+	font-size: 1em;
+
+}
+#ContactInfo img {
+	margin-left: 0px;
+	margin-top: -10px;
+}
+
+.contact #Map{
+	margin-left: 30px;
+	float: left;
+	
+	border: 1px solid black;
+}
+
+
+.contact #contactBottom{
+	position: relative;
+	
+}
+
+.contact #contactBottom #Contactheader {
+	
+	padding-top: 300px;
+	display: block;
+	
+	color: #fdd822;
+
+}
+
+
+
+.ContactForm{
+	margin-bottom: 5px;
+	position: relative;
+	
+	display:block;
+}
+
+.ContactForm #Contactheader h2{
+	display: block;
+	color: #FFE873;	
+	font-weight: 600;
+
+}
+.ContactForm #ContactPara{
+	width: 250px;
+	float: left;	
+}
+
+
+.ContactForm #ContactPara p{
+
+	line-height: 30px;
+}
+
+.ContactForm #ContactInput{
+	float: left;
+		
+}
+
+#ContactInput {
+	width: 325px;
+    padding:0px;
+  
+	display: block;
+}
+
+input[type="text"], textarea {
+    background:#fff;
+    border:1px solid #cfcfcf;
+    border-radius:0;
+
+    box-shadow:2px 2px 5px rgba(202, 194, 194, 0.61);
+    font-size:14px;
+    color:#0a2937;
+    
+    
+    }
+
+input[type="text"]:focus, textarea:focus {
+    box-shadow:none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #909090;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #909090;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #909090;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #909090;
+}
+
+form {
+    margin:0;
+    }
+#ContactInput input[type="text"] {
+    height:35px;
+    line-height:10px;
+    padding:0px 20px;
+    width:425px;
+    margin-bottom:10px;
+    }
+    
+#ContactInput textarea {
+    padding:15px 19px;
+    width:425;
+    height:110px;
+    resize:none;
+}
+
+#ContactInput input[type="text"].error,
+#ContactInput textarea.error {
+	border-color:red;
+}
+#ContactInput {
+	font-size:10px;
+	color:#333;
+	line-height:13px;
+	margin-bottom:10px;
+	margin-right:30px;
+}
+
+#ContactInput span {
+	font-size:12px;
+	color:#660000;
+	font-weight:bold;
+	
+}
+.contact #contactBottom .ContactForm #ContactInput input[type="submit"] {
+    border:0;
+    height:40px;
+    width:70px;
+    background:#FFE873;
+    font-size:14px;
+    margin-bottom:30px;
+    margin-top: 10px;
+    
+    box-shadow: 2px 2px 3px rgba(178, 171, 171, 0.38);
+    
+    
+    margin-right: -140px;
+    float: right;
+    
+    
+    }
+}
+#ContactInput .text p {
+    font-size: 20px;
+    color:#0a2937;
+    line-height:18px;
+    margin:0;
+}
+
+/*****************/
+/* Terzakis page */
+/*****************/
+
+
+.terzakis{
+	width: 900px;
+	padding-left: 110px;
+
+}
+
+#IriniFace{
+	padding-right: 50px;
+
+	float: left;
+	
+	padding-bottom: auto;
+}
+
+#IriniFace img {
+	margin-bottom: 15px;
+}
+
+#IriniFace h2 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: orange;
+}
+
+#IriniAbout {
+	
+	width: 645px;
+	margin-bottom: 30px;
+	
+	margin-left: 280px;
+	
+}
+
+#IriniAbout a {
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+#IriniAbout a:hover {
+	color:black;
+}
+
+#IriniAbout p {
+	font-size: 0.8em;
+	line-height: 25px;
+}
+
+#IriniAbout h2 {
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+#IriniAbout li {
+	font-size: 0.8em;
+}
+
+.orangeBox {
+				
+
+		margin-bottom: 30px;
+		padding: 15px;
+		padding-left: 30px;
+		
+		background-color: #FFBD73;
+		width: 510px;
+		
+		display: inline-block;
+
+}
+
+#IriniAbout #column1 {
+	display:block;
+	float:left;
+	width:250px;
+	border:0;	
+}
+
+#IriniAbout #column2 {
+	position:relative;
+	display:block;
+	float:right;
+	width:220px;
+	height:30px;
+	
+	border:0;
+	
+	}
+	
+#orangeBox1, #orangeBox2{
+	margin-left: 50px; 
+	margin-top: 20px;
+
+}
+
+#IriniAbout li {
+		
+}
+
+#linkIn {
+	position: absolute;
+	margin-left: 10px;
+}
+
+
+/*****************/
+/* Health Pysch  */
+/*****************/
+
+
+.healthPsych {
+	
+}
+.healthPsych .header{
+	margin-left: 70px;
+	margin-top: -10px;
+	
+	width: 1100px;
+	
+	text-align: left;
+	
+	display: block;
+	position: relative;
+
+	font-weight: 300;
+}
+
+.healthPsych .header h1{
+	margin-left: 30px;
+	font-size: 1.85em;
+	margin-bottom: 15px;
+}
+.healthPsych .header p{
+	font-size: 0.85em;
+}
+
+.healthPsych .header .left{
+	float:left;
+	clear: both;
+	display: inline-block;
+
+	width: 530px;
+	text-align: justify;
+	line-height: 1.6em;
+
+}
+.healthPsych .header .right{
+	float:left;
+	width: 320px;
+
+	line-height: 2px;
+	font-weight: 700;
+	
+	margin-left: 45px;
+	margin-top: 105px;
+
+	padding-right: 100px;
+		
+	font-size: 1.1em;
+	color: #4EC1A1;
+}
+.healthPsych .header .right p{
+	line-height: 25px;
+	font-weight: 400;
+
+}
+.healthPsych .mainbody {
+	display: inline-block;
+	
+	text-align: left;
+
+	margin-left: 70px;
+	
+	padding-bottom: 40px;
+}
+
+.healthPsych .mainbody h2, {
+	font-size: 1.3em;
+	margin-bottom: 0px;
+}
+
+.healthPsych .mainbody em {
+	font-size: 1em;
+}
+.healthPsych .mainbody p{
+	margin-top: -3px;
+	text-align: justify;
+	font-size: 0.8em;
+	font-weight: 300;
+}
+.healthPsych .mainbody .article{
+
+}
+
+.healthPsych .mainbody .article .text{
+	font-weight: 100;
+	width: 620px;
+	
+	display: inline-block;
+}
+
+.healthPsych .mainbody .article .greentext{
+	text-decoration: none;
+	text-stroke: none;
+	width: 320px;
+	
+	color: #4EC1A1;
+	
+	float:right;
+	clear: both;
+		
+	margin: 8px 210px 15px 0px;
+}
+
+.healthPsych .mainbody .article .greentext h4{
+	line-height: 25px;
+	font-weight: 400;
+}
+
+#green1{
+	margin-top: -10px;
+}
+#green2{
+	margin-bottom: -34px;
+}
+#green3{
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+#green4{
+	margin-top: 8px;
+	margin-bottom: -30px;
+	
+}
+
+
+
+
+
+/* photo Gal */
+
+.benefitGal {  
+  text-align: center;
+	
+  width: 100%;
+    
+  margin: 25px 10px 35px 0px;  
+
+  display: inline-block;
+  
+
+  overflow: visible;
+  
+  
+  
+}  
+
+.benefitGal h2{  
+	text-align: left;
+}
+
+.benefitGal .box {  
+    cursor: pointer;  
+    height: 155px;      
+    float: left;  
+    margin: 7px;  
+    position: relative;  
+    overflow: hidden;  
+    width: 307px;  
+}  
+  
+.benefitGal .box img {  
+    position: absolute;  
+    left: 0;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+}  
+
+.benefitGal .box .caption {  
+    position: absolute;  
+    color: black;  
+    z-index: 100;  
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;  
+    left: 0;  
+}  
+
+/* Hover */
+
+.benefitGal .box .fade-caption, #PhotoGal .box .scale-caption {  
+    opacity: 0;  
+    width: 307px;  
+    height: 155px;  
+    padding: 30px;  
+    
+}  
+
+
+.benefitGal .box:hover .fade-caption {  
+    opacity: 0.97;  
+}  
+
+
+/* color the boxes */
+.benefitGal .caption {
+	text-align: left;
+	background-color: #4EC1A1;
+}
+
+.benefitGal .caption span{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.benefitGal .caption h2{
+	font-size: 0.95em;
+	margin-bottom: -5px;
+}
+
+.benefitGal .caption p{
+	font-size: 0.78em;
+	color: white;
+	line-height: 20px;
+	width: 240px;
+	text-align: left;
+}
+
+
+/*** Contact **/
+
+
+
+
+/* Footer */
+
+footer {
+	
+	display: inline-block;
+	width: 1000px;	
+	margin-left: 40px;
+	
+	padding-top: 80px;
+}
+
+footer a{
+	font-weight: 600;
+}
+
+footer a:hover{
+	font-style: italic;
+	margin-left: 4px;
+}
+
+#copyright {
+	margin-top: 10px;
+}
+
+#legal {	
+	display: inline;
+	clear:right;
+}
+
+#legal p {
+
+	margin: 0px;
+	padding-bottom: 0px;
+	font-size: 12px;
+	line-height: 12px;
+	
+}
+
+#credits {
+	float:right;	
+	display: inline;
+	
+}
+
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+

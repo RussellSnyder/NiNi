@@ -521,6 +521,8 @@ nav li:hover li {
 	
 	margin-top: 0%;
 	
+	overflow: hidden;
+	
 	
 }
 .healthPsych .header{

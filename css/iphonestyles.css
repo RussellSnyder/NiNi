@@ -411,7 +411,8 @@ nav li:hover li {
 
 #IriniFace{
 	width: 100%;
-	margin-left: -18%;
+	margin-left: -15%;
+	overflow-x: hidden;
 	
 }
 
@@ -429,9 +430,12 @@ nav li:hover li {
 
 #IriniAbout {
 	
-	width: 100%;
+	width: 90%;
 	
-	margin-left: -29%;
+	margin-left: -25%;
+
+	overflow-x: hidden;
+
 }
 
 #IriniAbout a {

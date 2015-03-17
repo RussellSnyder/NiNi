@@ -130,16 +130,33 @@ header {
 
 /* Nav Bar */
 
-
-nav ul { margin: }
-nav li {
+nav {
+	float: none;
+    padding-top: 5px;
+	margin-bottom: 20px;
 	
+	
+
+	width:100%;
+	
+}
+
+
+nav ul {
+	
+	width: 80%;
+	display: block;
+	
+	margin-left: -9%	
+	}
+	
+nav li {
+	width: 100%;
 	}
 
 nav a {
 	
 	color: rgba(34, 34, 34, 0.94);	
-	width: 100%;
 }
 
 

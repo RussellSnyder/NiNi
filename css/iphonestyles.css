@@ -132,7 +132,7 @@ header {
 
 nav {
 	float: none;
-    padding-top: 5px;
+    padding-top: 0px;
 	margin-bottom: 20px;
 	
 	
@@ -147,11 +147,19 @@ nav ul {
 	width: 80%;
 	display: block;
 	
-	margin-left: -9%	
+	margin-top: -10px;
+	margin-left: -9%;
 	}
 	
 nav li {
+	
 	width: 100%;
+	
+	margin-bottom: 0px;
+	
+	padding-top: 0px;
+	padding-bottom: 10px;
+	
 	}
 
 nav a {
@@ -174,29 +182,23 @@ nav li:hover li {
 
 /* nav colors */
 
-.orange:hover {
-	padding-top: 10px;
-	margin-top: 14px;
-	margin-bottom: 4px;
 
-}
 
 .orangeCurrent {
 	color: orange;
 	border-color: orange;
 
+	border-width: 4px;
+	border-radius: 10px;
+
+	
+	margin-top: 0px;
+	line-height: 17px;
+	font-size: .8em;
+
 }
 
-.yellow:hover {
-	padding-top: 10px;
-	margin-top: 14px;
-	margin-bottom: 4px;
-}
 
-.green {
-	color: #4EC1A1;
-	border-color: #4EC1A1;
-}
 .greenCurrent {
 	color: #4EC1A1;
 	border-color: #4EC1A1;
@@ -406,12 +408,13 @@ nav li:hover li {
 }
 
 #IriniFace{
-	margin-left: -10%;
+	margin-left: -3%;
 	
 }
 
 #IriniFace img {
 	margin-bottom: 5px;
+	width: 70%;
 	
 }
 
@@ -440,15 +443,15 @@ nav li:hover li {
 #IriniAbout p {
 	width: 95%;
 	
-	font-size: 0.8em;
-	line-height: 25px;
+	font-size: 0.75em;
+	line-height: 23px;
 }
 #IriniAbout h1 {
 	margin-top: 10px;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 #IriniAbout h2 {
-	margin-bottom: 0px;
+	margin-bottom: -5px;
 	margin-top: 10px;
 }
 
@@ -459,34 +462,40 @@ nav li:hover li {
 .orangeBox {
 				
 
-		margin-bottom: 30px;
-		padding: 15px;
-		padding-left: 0px;
+		margin-bottom: 15px;
 		
 		background-color: #FFBD73;
 		width: 90%;
 		
-		display: inline-block;
+		
+		margin-left: -20%;
+		padding-right: -20px;
 
+}
+
+#column1 li, #column2 li {
+	font-size: .6em;
 }
 
 #IriniAbout #column1 {
-	width: 25%;
+	width: 40%;
+	padding-right: 2%;
+	margin-left: 10%;
 
-	border:0;	
 }
 
 #IriniAbout #column2 {
-	width: 25%;
-	height:30px;
-	
-	border:0;
-	
+	width: 45%;
+	margin-left: -20px;
+
+		
 	}
 	
 #orangeBox1, #orangeBox2{
-	margin-left: 30%; 
+	margin-left: 0%; 
 	margin-top: 20px;
+	
+	padding-left: 0px;
 
 }
 
@@ -1061,7 +1070,7 @@ footer {
 	display: inline-block;
 	width: 80%;	
 	
-	padding-top: 10px;
+	padding-top: 30px;
 }
 
 

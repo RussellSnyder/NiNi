@@ -717,6 +717,7 @@ nav li:hover li {
 
 .contact #contactBottom{
 	position: relative;
+	margin-left: -50px;
 	
 }
 
@@ -809,7 +810,7 @@ form {
     
 #ContactInput textarea {
     padding:15px 19px;
-    width:425;
+    width:428px;
     height:110px;
     resize:none;
 }
@@ -844,7 +845,7 @@ form {
     box-shadow: 2px 2px 3px rgba(178, 171, 171, 0.38);
     
     
-    margin-right: -140px;
+    margin-right: -100px;
     float: right;
     
     

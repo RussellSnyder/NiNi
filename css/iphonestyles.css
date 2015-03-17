@@ -1,19 +1,10 @@
-	/* ===============================
-   Author: {Russell Snyder}
-   Date:   {March 5, 2015}
-   
-   Notes:
-   Designed for Terzakis Consulting
-   
-   Colour Palette:
-   ---------------
-   Orange:				
-   Light Orange:	#FFBD73	
-   Yellow:			#FFE873	
-   Green:			#4EC1A1	
-   =============================== */
+/****************************/
+/****************************/
+/**** Mobile Friendly *******/
+/****************************/
+/****************************/
 
-/* Typography */
+@media (min-width: 0px) and (max-width: 600px) {
 
 
 /* General */
@@ -37,7 +28,7 @@ body {
 	
 	font-size:65.5%;
 
-	width: 1080px;;
+	width: 600px;;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -127,6 +118,8 @@ header {
 /* photo Gal */
 
 .PhotoGal {  
+	display: hidden;
+
 	text-align: center;
 	
     width: 100%;
@@ -932,4 +925,20 @@ a[href^=tel] {
 
 
 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+}
 

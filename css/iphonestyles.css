@@ -242,7 +242,7 @@ header {
 #caption-1 {
 	background-color: #FFBD73;	
 	
-    -webkit-transform: translateZ(0);
+    -webkit-transform: translateZ(1);
 	
 	animation-name: fading;
 	animation-duration: 24s;
@@ -253,7 +253,7 @@ header {
 #caption-2 {
 	background-color: #FFE873;	
 	
-	-webkit-transform: translateZ(0);
+	-webkit-transform: translateZ(1);
 	
 
 	animation-name: fading;
@@ -266,7 +266,7 @@ header {
 #caption-3 {
 	background-color: #4EC1A1;
 
-      -webkit-transform: translateZ(0);
+      -webkit-transform: translateZ(1);
 
 	animation-name: fading;
 	animation-duration: 24s;

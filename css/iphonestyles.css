@@ -404,11 +404,14 @@ nav li:hover li {
 .terzakis{
 	width: 100%;
 	display: block;
+	
+	overflow-x: hidden;
 
 }
 
 #IriniFace{
-	margin-left: -3%;
+	width: 100%;
+	margin-left: -18%;
 	
 }
 

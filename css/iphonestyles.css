@@ -241,6 +241,8 @@ header {
 #caption-1 {
 	background-color: #FFBD73;	
 	
+	z-index: 100;
+	
 	animation-name: fading;
 	animation-duration: 24s;
 	animation-delay: 3s;
@@ -249,6 +251,8 @@ header {
 
 #caption-2 {
 	background-color: #FFE873;	
+	
+	
 
 	animation-name: fading;
 	animation-duration: 24s;

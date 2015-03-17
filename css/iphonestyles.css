@@ -919,11 +919,11 @@ nav li:hover li {
 }
 
 .contact #Map iframe{
-	margin-left: 0%;
+	margin-left: -2%;
 	float: none;
 	
-	border: 1px solid black;
-	
+	border: 0px solid white;
+		
 	width: 100%;
 }
 

@@ -603,21 +603,19 @@ form {
 
 
 .terzakis{
-	width: 900px;
-	padding-left: 110px;
+	width: 100%;
+	display: block;
 
 }
 
 #IriniFace{
-	padding-right: 50px;
-
-	float: left;
+	margin-left: -10%;
 	
-	padding-bottom: auto;
 }
 
 #IriniFace img {
-	margin-bottom: 15px;
+	margin-bottom: 5px;
+	
 }
 
 #IriniFace h2 {
@@ -628,11 +626,9 @@ form {
 
 #IriniAbout {
 	
-	width: 645px;
-	margin-bottom: 30px;
+	width: 100%;
 	
-	margin-left: 280px;
-	
+	margin-left: -29%;
 }
 
 #IriniAbout a {
@@ -645,10 +641,15 @@ form {
 }
 
 #IriniAbout p {
+	width: 95%;
+	
 	font-size: 0.8em;
 	line-height: 25px;
 }
-
+#IriniAbout h1 {
+	margin-top: 10px;
+	font-size: 1.3em;
+}
 #IriniAbout h2 {
 	margin-bottom: 0px;
 	margin-top: 10px;
@@ -663,27 +664,23 @@ form {
 
 		margin-bottom: 30px;
 		padding: 15px;
-		padding-left: 30px;
+		padding-left: 0px;
 		
 		background-color: #FFBD73;
-		width: 510px;
+		width: 90%;
 		
 		display: inline-block;
 
 }
 
 #IriniAbout #column1 {
-	display:block;
-	float:left;
-	width:250px;
+	width: 25%;
+
 	border:0;	
 }
 
 #IriniAbout #column2 {
-	position:relative;
-	display:block;
-	float:right;
-	width:220px;
+	width: 25%;
 	height:30px;
 	
 	border:0;
@@ -691,7 +688,7 @@ form {
 	}
 	
 #orangeBox1, #orangeBox2{
-	margin-left: 50px; 
+	margin-left: 30%; 
 	margin-top: 20px;
 
 }

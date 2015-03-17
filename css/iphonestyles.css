@@ -250,8 +250,13 @@ header {
 #caption-1 {
 	background-color: #FFBD73;	
 	
-    -webkit-transform: translateZ(1);
-	
+    -webkit-transform: translateZ(0);
+
+	-webkit-animation-name: fading;	
+	-webkit-animation-duration: 24s;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-iteration-count: infinite;   
+
 	animation-name: fading;
 	animation-duration: 24s;
 	animation-delay: 3s;
@@ -261,8 +266,13 @@ header {
 #caption-2 {
 	background-color: #FFE873;	
 	
-	-webkit-transform: translateZ(1);
+	-webkit-transform: translateZ(0);
 	
+	-webkit-animation-name: fading;	
+	-webkit-animation-duration: 24s;
+	-webkit-animation-delay: 9s;
+	-webkit-animation-iteration-count: infinite;   
+
 
 	animation-name: fading;
 	animation-duration: 24s;
@@ -274,7 +284,12 @@ header {
 #caption-3 {
 	background-color: #4EC1A1;
 
-      -webkit-transform: translateZ(1);
+      -webkit-transform: translateZ(0);
+
+	-webkit-animation-name: fading;	
+	-webkit-animation-duration: 24s;
+	-webkit-animation-delay: 15s;
+	-webkit-animation-iteration-count: infinite;   
 
 	animation-name: fading;
 	animation-duration: 24s;

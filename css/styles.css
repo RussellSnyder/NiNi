@@ -870,14 +870,6 @@ footer {
 	padding-top: 80px;
 }
 
-footer a{
-	font-weight: 600;
-}
-
-footer a:hover{
-	font-style: italic;
-	margin-left: 4px;
-}
 
 #copyright {
 	margin-top: 10px;
@@ -903,6 +895,14 @@ footer a:hover{
 	
 }
 
+#credits a{
+	font-weight: 600;
+}
+
+#credits a:hover{
+	font-style: italic;
+	margin-left: 4px;
+}
 
 
 

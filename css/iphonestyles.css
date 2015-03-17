@@ -732,8 +732,6 @@ form {
 }
 
 .healthPsych .header .left{
-	float:left;
-	clear: both;
 	display: inline-block;
 
 	width: 100%;
@@ -742,14 +740,14 @@ form {
 
 }
 .healthPsych .header .right{
-	float:left;
-	width: 100%;
+	width: 80%;
 
-	line-height: 2px;
+	display: inline;
+
 	font-weight: 700;
 	
-	margin-left: 50%;
-	margin-top: 50%;
+	margin-left: 30%;
+	margin-top: 2%;
 
 	padding-right: 100px;
 		
@@ -757,7 +755,7 @@ form {
 	color: #4EC1A1;
 }
 .healthPsych .header .right p{
-	line-height: 25px;
+	line-height: 1em;
 	font-weight: 400;
 
 }

@@ -351,8 +351,7 @@ nav li:hover li {
 /* nav colors */
 
 .orange:hover {
-	color: orange;
-	border-color: orange;
+
 }
 
 .orangeCurrent {
@@ -362,8 +361,6 @@ nav li:hover li {
 }
 
 .yellow:hover {
-	color: #f5dd65;
-	border-color: #f5dd65;
 }
 
 .green {

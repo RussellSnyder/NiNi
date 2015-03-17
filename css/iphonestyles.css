@@ -130,7 +130,7 @@ header {
 
 	text-align: center;
 	
-    width: 95%;
+    width: 100%;
 	display: inline-block;
   
 
@@ -138,19 +138,20 @@ header {
   
 }  
 #image-3{
-	height: 150px;
+	height: 100px;
+    width: 100%;  
 		
 	}
 
 .PhotoGal .box {  
-	height: 150px;
+	height: 100px;
 	
     cursor: pointer;  
     float: left;  
     margin: 15px;  
     position: relative;  
     overflow: hidden;  
-    width: 25%;  
+    width: 20%;  
     -webkit-box-shadow: 2px 2px 2px 2px #ccc;  
     -moz-box-shadow: 2px 2px 2px 2px #ccc;  
     box-shadow: 1px 1px 5px 1px black

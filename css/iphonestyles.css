@@ -1103,9 +1103,11 @@ form {
 footer {
 	
 	display: inline-block;
-	width: 80%;	
+	width: 70%;	
 	
 	padding-top: 30px;
+	
+	position: relative;
 }
 
 
@@ -1124,6 +1126,10 @@ footer {
 	padding-bottom: 0px;
 	font-size: 10px;
 	line-height: 12px;
+	float: left;
+	clear: both;
+	
+	width: 80%;
 	
 }
 

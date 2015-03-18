@@ -402,24 +402,27 @@ nav li:hover li {
 
 
 .terzakis{
-	width: 100%;
 	display: block;
 	
+	margin: 0;
+    padding: 0;
+	
+	width: 100%;
 	overflow-x: hidden;
 
 }
 
 #IriniFace{
+	margin-left: 22%;
+
 	width: 100%;
-	margin-left: -15%;
-	overflow-x: hidden;
 	
 }
 
 #IriniFace img {
 	margin-bottom: 5px;
-	width: 70%;
-	
+	width: 50%;
+		
 }
 
 #IriniFace h2 {
@@ -430,9 +433,12 @@ nav li:hover li {
 
 #IriniAbout {
 	
-	width: 90%;
+	margin: 0;
+    padding: 0;
+    
+	width: 100%;
 	
-	margin-left: -25%;
+	padding-bottom: 30px;
 
 	overflow-x: hidden;
 
